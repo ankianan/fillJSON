@@ -11,6 +11,7 @@ HOW TO USE :
 
 Say you have a structure as below:
 
+<pre>
   <ul class="menu">
     <li>
       <a></a> //Label for Menu item 1
@@ -31,7 +32,7 @@ Say you have a structure as below:
       </ul>
     </li>
   </ul>
-
+</pre>
 
 
 
