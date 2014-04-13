@@ -52,7 +52,7 @@ But this can be avoided, if we carefully see there is structure repeating :
 As most of the JSON api are made to target repeatitive structures, its good to have a JSON designed in such a way such that it creates its structure and fills into it.
 
 
-With this api, you can specify your structure in javascipt:
+With this fillJSON.js, you can specify your structure in javascipt:
 
 ```javascript
 
