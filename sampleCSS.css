@@ -6,18 +6,22 @@ ul li {
 }
 ul.menu li {
     float:left;
-}
-ul li {
-    padding:5px;
+    font-weight:bold;
+    background : green;
 }
 ul.submenu li {
     float:none;
+    font-weight:normal;
+    background : silver;
 }
 ul {
     padding:0px;
     margin:0px;
 }
 ul li a {
+    color:black;
+    padding:5px;
+    text-decoration: none;
     width:100px;
     display:inline-block;
 }
