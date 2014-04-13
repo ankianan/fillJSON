@@ -1,0 +1,23 @@
+ul {
+    position:absolute;
+}
+ul li {
+    list-style-type: none;
+}
+ul.menu li {
+    float:left;
+}
+ul li {
+    padding:5px;
+}
+ul.submenu li {
+    float:none;
+}
+ul {
+    padding:0px;
+    margin:0px;
+}
+ul li a {
+    width:100px;
+    display:inline-block;
+}
