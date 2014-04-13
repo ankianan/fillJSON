@@ -1,5 +1,5 @@
 var struct_proto = {
-    /** Common set of functions avilable to every menu type node */
+    /** Common set of functions avilable to every node, you can extend it any time */
     foo: function (node, key, value) {
         var _value = this['_' + key];
         if (_value) {
@@ -7,31 +7,19 @@ var struct_proto = {
         }
         this[key].call(node, value);
     },
-        'label': function (value) {
-        this.html(value);
-    },
         'html': function (value) {
         this.html(value);
     },
         'class': function (value) {
         this.addClass(value);
     },
-        'active': function (value) { //this will be clonned node
-        this.addClass('mActive')
-    },
         'href': function (value) {
-        this.attr({
-            'href': value
-        });
+        this.attr('href', value);
     },
         'title': function (value) {
-        this.attr({
-            'title': value
-        });
+        this.attr('title',value);
     },
-        'status': function (value) {
-        this.append('<span>' + value + '</span>')
-    },
+    
     /** Function to manage Structure */
     getCont: function () {
         return this.cont.clone();
