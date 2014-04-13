@@ -5,6 +5,7 @@ This project aims at easying the process of filling JSON data into HTML.
 
 With simple JS code we inspire developers to find out clonable structure in their HTML and map them with JSON easily.
 
+View lime demo at : http://jsfiddle.net/ankit90_anand/UqkBT/embedded/result/
 
 
 Say you have a HTML structure as below:
